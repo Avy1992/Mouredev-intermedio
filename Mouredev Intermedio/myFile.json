@@ -1,6 +1,10 @@
 {
-    "name": "Adrian",
-    "country": "Spain",
-    "language": "Python",
-    "example": "https://jason.org"
+  "name": "Adrian",
+  "country": "Spain",
+  "languages": [
+    "Python",
+    "JavaScript",
+    "C++"
+  ],
+  "example": "https://jason.org"
 }
