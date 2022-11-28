@@ -1,6 +1,9 @@
 ### Funciones de orden superior ###
 """Son funciones que pueden ejecutar otras funciones entradas como parametro
 de la función"""
+import functools
+
+
 def sum_one(value):
     return value+1
 
@@ -48,3 +51,10 @@ print(list(filter(lambda number: number>10, numbers)))
 
 
 # Reduce
+
+def sum_two_values(value1, value2):
+    print(value1)
+    print(value2)
+    return value1 + value2
+
+print(functools.reduce(sum_two_values, numbers))  # redude opera con el valor acual y el acumulado, esta en el modulo functools
